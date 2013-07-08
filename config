@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = false
+[remote "origin"]
+	url = git@github.com:ldavies3004/first_site.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	 push = +refs/heads/master:refs/heads/gh-pages
+  	push = +refs/heads/master:refs/heads/master
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
